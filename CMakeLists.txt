@@ -18,3 +18,5 @@ add_executable(hanxin hanxin.cpp)
 add_executable(卡特兰 卡特兰.cpp)
 add_executable(整数划分 整数划分.cpp)
 add_executable(week week.cpp)
+
+add_executable(数据类型转换1 数据类型转换1.cpp)
