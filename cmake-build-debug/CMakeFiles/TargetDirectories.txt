@@ -1,5 +1,0 @@
-/Users/loujilin/CLionProjects/cppexe/cmake-build-debug/CMakeFiles/main.dir
-/Users/loujilin/CLionProjects/cppexe/cmake-build-debug/CMakeFiles/Time.dir
-/Users/loujilin/CLionProjects/cppexe/cmake-build-debug/CMakeFiles/Date.dir
-/Users/loujilin/CLionProjects/cppexe/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/loujilin/CLionProjects/cppexe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
