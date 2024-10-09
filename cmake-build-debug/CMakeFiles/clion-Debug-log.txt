@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/loujilin/CLionProjects/cppexe -B /Users/loujilin/CLionProjects/cppexe/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/loujilin/CLionProjects/cppexe -B /Users/loujilin/CLionProjects/cppexe/cmake-build-debug
 CMake Error at CMakeLists.txt:18 (add_executable):
   The target name "卡特兰" is reserved or not valid for certain CMake
   features, such as generator expressions, and may result in undefined
@@ -8,6 +8,12 @@ CMake Error at CMakeLists.txt:18 (add_executable):
 CMake Error at CMakeLists.txt:19 (add_executable):
   The target name "整数划分" is reserved or not valid for certain CMake
   features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  The target name "数据类型转换1" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
   behavior.
 
 
