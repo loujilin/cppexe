@@ -20,3 +20,9 @@ add_executable(IntegerSplit IntegerSplit.cpp)
 add_executable(week week.cpp)
 
 add_executable(convertDatatype1 convertDatatype1.cpp)
+
+add_executable(SplitString SplitString.cpp)
+add_executable(stringAsinput stringAsinput.cpp)
+add_executable(reverseWords reverseWords.cpp)
+add_executable(istringstreamex istringstreamex.cpp)
+add_executable(stringToint stringToint.cpp)

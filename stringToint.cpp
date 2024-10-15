@@ -4,7 +4,10 @@
 #include <iostream>
 #include <sstream>
 using namespace std;
-
+void TimeAMPM(string& s){
+    stringstream ss(s);
+    while(getline(ss,))
+}
 int main()
 {
     string s="2023-11-02";
