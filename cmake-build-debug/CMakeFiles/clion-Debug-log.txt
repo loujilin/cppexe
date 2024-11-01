@@ -1,4 +1,56 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/loujilin/CLionProjects/cppexe -B /Users/loujilin/CLionProjects/cppexe/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.1s)
--- Build files have been written to: /Users/loujilin/CLionProjects/cppexe/cmake-build-debug
+CMake Error at CMakeLists.txt:35 (add_executable):
+  The target name "进制转换" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:36 (add_executable):
+  The target name "分割字符串" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:37 (add_executable):
+  The target name "进制转换带字母" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+
+
+CMake Error at CMakeLists.txt:38 (add_executable):
+  The target name "字符串转整数" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:39 (add_executable):
+  The target name "获得单词" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:40 (add_executable):
+  The target name "单词反转" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:41 (add_executable):
+  The target name "韩信点兵" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:43 (add_executable):
+  The target name "幂运算" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+CMake Error at CMakeLists.txt:44 (add_executable):
+  The target name "矢量叉积" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!
