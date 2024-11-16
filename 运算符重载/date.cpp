@@ -97,7 +97,18 @@ public:
         o<<setfill(' ');
         return o;
     }
+    //i++
+    friend Date& operator++( Date& a){//++a
 
+        a.addone2();
+        return a;
+    }
+    friend Date operator++(Date& a,int){//a++
+        Date t;
+        t.year=a.year;t.month=a.month;t.day=a.day;
+        a.addone2();
+        return t;
+    }
 	bool IsLeap()
 	{
 		bool flag=false;
@@ -198,12 +209,17 @@ public:
 };
 int main(int argc, char *argv[])
 {
-	string s1,s2;
+    Date a(27,10,2022,23,59,59);//实例化 ，才能分配空间
+    cout<<++a;
+    cout<<a++;
+    cout<<a;
+
+/*	string s1,s2;
 	getline(cin,s1);
 	getline(cin,s2);
 	Date a(s1),b(s2);
-	cout<<a-b;	
-/*	Date a(27,10,2022,23,59,59);//实例化 ，才能分配空间 
+	//cout<<a-b;
+	Date a(27,10,2022,23,59,59);//实例化 ，才能分配空间
 	//Date b("2018-10-12"); 
 	a.addsecond(10);
 	a.print();
