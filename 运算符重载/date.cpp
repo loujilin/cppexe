@@ -52,7 +52,7 @@ private:
 	Time t;
 public:
 
-	Date(int d=1,int m=1,int y=1900,int h,int i,int s):t(h,i,s)
+	Date(int d=1,int m=1,int y=1900,int h=0,int i=0,int s=0):t(h,i,s)
 	{
 		year=y;month=m;day=d;
 	}
@@ -91,6 +91,13 @@ public:
 		return i;//不完整的代码，自己填写完整 
 		
 	}
+    friend ostream& operator<<(ostream& o,const Date& b){
+        o<<setfill('0');
+        o<<setw(4)<<b.year<<'-'<<setw(2)<<b.month<<'-'<<setw(2)<<b.day<<endl;
+        o<<setfill(' ');
+        return o;
+    }
+
 	bool IsLeap()
 	{
 		bool flag=false;
