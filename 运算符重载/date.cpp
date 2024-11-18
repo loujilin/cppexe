@@ -97,8 +97,14 @@ public:
         o<<setfill(' ');
         return o;
     }
+/*    ostream& operator<<(ostream& o){
+        o<<setfill('0');
+        o<<setw(4)<<this->year<<'-'<<setw(2)<<this->month<<'-'<<setw(2)<<this->day<<endl;
+        o<<setfill(' ');
+        return o;
+    }*/
     //i++
-    friend Date& operator++( Date& a){//++a
+/*    friend Date& operator++( Date& a){//++a
 
         a.addone2();
         return a;
@@ -107,6 +113,17 @@ public:
         Date t;
         t.year=a.year;t.month=a.month;t.day=a.day;
         a.addone2();
+        return t;
+    }*/
+    Date& operator++(){//++a
+
+        this->addone2();
+        return (*this);
+    }
+    Date operator++(int){//a++
+        Date t;
+        t.year=this->year;t.month=this->month;t.day=this->day;
+        this->addone2();
         return t;
     }
 	bool IsLeap()
