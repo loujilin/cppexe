@@ -21,11 +21,11 @@ int main()
     { printf("无解!");return 0;}
     c=0.01;
     for(i=2;i<=9;i++)              // 逐位求精
-    {for(x=x1;x<=x2;x+=c)
-            if(fny(x)*fny(x2)>0)       // 如果变为同号，缩小循环范围
-            {x2=x;x1=x-c;break;}     // 调整循环的初值x1与终值x2
-        c=c/10;                     //  缩小循环步长求精
-    }
+        {for(x=x1;x<=x2;x+=c)
+                if(fny(x)*fny(x2)>0)       // 如果变为同号，缩小循环范围
+                {x2=x;x1=x-c;break;}     // 调整循环的初值x1与终值x2
+            c=c/10;                     //  缩小循环步长求精
+        }
     x=(x1+x2)/2;
     int p;
     cin>>p;

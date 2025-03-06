@@ -5,6 +5,11 @@
 #include <string>
 #include <iomanip>
 using namespace std;
+void Swap(int& a,int &b){
+    int t;
+    t=a;a=b;b=t;
+}
+int a[100];
 class Calculator {
 public:
     virtual int add(int a, int b) = 0;
